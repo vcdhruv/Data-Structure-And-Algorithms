@@ -1,0 +1,16 @@
+//Generic type
+public class ListNode<T>{
+    private T data;
+    private ListNode<T> next;
+}
+
+//Integer type
+public class ListNode{
+    private int data;
+    private ListNode next;
+}
+
+So , there will be a node with two boxes in it one on left will have data and 
+another on right will have next...
+next will be pointing to null if no other node is linked to it...
+we will most use integer type of data
